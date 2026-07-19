@@ -21,6 +21,9 @@ class Program
             case "3":
                 MeusExerciciosCSharp.Nivel01_EntradaSaida.Exercicio03.Exercicio03.Executar();
                 break;
+            case "4":
+                MeusExerciciosCSharp.Nivel01_EntradaSaida.Exercicio04.Exercicio04.Executar();
+                break;
             default:
                 Console.WriteLine("Opção inválida ou exercício não encontrado.");
                 break;
@@ -29,5 +32,6 @@ class Program
         Console.WriteLine("---------------------------------------------");
         Console.WriteLine("\nPrograma finalizado. Pressione qualquer tecla para sair...");
         Console.ReadKey();
+    
     }
 }
