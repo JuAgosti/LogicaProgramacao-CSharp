@@ -8,6 +8,7 @@
 *.rsuser
 *.suo
 *.Backup
+*.Backup.tmp
 
 # VS Code
 .vscode/
