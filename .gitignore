@@ -1,0 +1,23 @@
+# Build
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.user
+*.rsuser
+*.suo
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
