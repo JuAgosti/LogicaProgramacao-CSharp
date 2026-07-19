@@ -19,7 +19,7 @@ class Program
                 MeusExerciciosCSharp.Nivel01_EntradaSaida.Exercicio02.Exercicio02.Executar();
                 break;
             case "3":
-                Console.WriteLine("Exercício 2 ainda não foi implementado.");
+                MeusExerciciosCSharp.Nivel01_EntradaSaida.Exercicio03.Exercicio03.Executar();
                 break;
             default:
                 Console.WriteLine("Opção inválida ou exercício não encontrado.");
