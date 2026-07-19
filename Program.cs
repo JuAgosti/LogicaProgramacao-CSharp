@@ -16,7 +16,9 @@ class Program
                 MeusExerciciosCSharp.Nivel01_EntradaSaida.Exercicio01.Exercicio01.Executar();
                 break;
             case "2":
-                // MeusExerciciosCSharp.Nivel01_EntradaSaida.Exercicio02.Exercicio02.Executar();
+                MeusExerciciosCSharp.Nivel01_EntradaSaida.Exercicio02.Exercicio02.Executar();
+                break;
+            case "3":
                 Console.WriteLine("Exercício 2 ainda não foi implementado.");
                 break;
             default:
