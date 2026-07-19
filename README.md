@@ -68,11 +68,10 @@ Cada nível possui uma pasta própria contendo:
 
 ## Como Executar
 
-1. Clone o repositório.
-2. Abra a solução no Visual Studio.
-3. Escolha o nível e o exercício desejado.
-4. Execute o projeto.
-
+1. Clone o repositório para a sua máquina local.
+2. Abra o arquivo de solução (`.sln`) no Visual Studio.
+3. Pressione **F5** ou clique no botão **Play** no topo do Visual Studio para executar o projeto.
+4. No console (na tela preta que vai abrir), **digite o número do exercício que você gostaria de testar** e pressione **Enter**. 
 ---
 
 ## 👩‍💻 Autora
