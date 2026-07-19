@@ -5,7 +5,6 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,6 +17,10 @@
     <Folder Include="MeusExerciciosCSharp\Nivel08_Colecoes\" />
     <Folder Include="MeusExerciciosCSharp\Nivel09_Arquivos\" />
     <Folder Include="MeusExerciciosCSharp\Nivel10_TratamentoExcecoes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="meusexercicioscsharp\nivel01_entradasaida\exercicio01\Exercicio01.csproj" />
   </ItemGroup>
 
 </Project>
