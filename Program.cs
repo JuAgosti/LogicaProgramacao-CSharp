@@ -33,6 +33,9 @@ class Program
             case "7":
                 MeusExerciciosCSharp.Nivel01_EntradaSaida.Exercicio06e07.Exercicio06e07.Executar();
                 break;
+            case "8":
+                MeusExerciciosCSharp.Nivel01_EntradaSaida.Exercicio08.Exercicio08.Executar();
+                break;
             default:
                 Console.WriteLine("Opção inválida ou exercício não encontrado.");
                 break;
