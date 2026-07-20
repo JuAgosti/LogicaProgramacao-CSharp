@@ -1,27 +1,30 @@
 ﻿using System;
 
-namespace MeusExerciciosCSharp.Nivel01_EntradaSaida.Exercicio10;
-class Exercicio10
+namespace MeusExerciciosCSharp.Nivel02_EstruturasCondicionais.Exercicio11;
+
+class Exercicio11
 {
     public static void Executar()
     {
-        int n1 , n2;
+        int a ,b, auxiliar = 0;
 
-        Console.WriteLine("--- RELACIONAMENTO ENTRE DOIS NÚMEROS ---");
+        Console.WriteLine("--- TROCA DE VALORES ---");
 
-        Console.WriteLine("Digite o primeiro núemro: ");
-        n1 = int.Parse(Console.ReadLine());
+        Console.WriteLine("Digite o valor de A: ");
+        a = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("Digite o segundo núemro: ");
-        n2 = int.Parse(Console.ReadLine());
+        Console.WriteLine("Digite o valor de B: ");
+        b = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("\n--- RESULTADOS: ---");
-        Console.WriteLine($"Igual? :{n1 == n2}");
-        Console.WriteLine($"Diferente? :{n1 != n2}");
-        Console.WriteLine($"Maior? :{n1 > n2}");
-        Console.WriteLine($"Menor? :{n1 < n2}");
-        Console.WriteLine($"Maior ou igual? :{n1 >= n2}");
-        Console.WriteLine($"Menor ou igual? :{n1 <= n2}");
+        auxiliar = a;
+        a = b;
+        b = auxiliar;
+
+        // Truque do C# para inverter os valores sem precisar de variável auxiliar!
+        // (a,b) = (b,a);
+
+        Console.WriteLine($"O valor de A é: {a}");
+        Console.WriteLine($"O valor de B é: {b}");
 
     }
 }

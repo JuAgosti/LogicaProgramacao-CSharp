@@ -9,7 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="MeusExerciciosCSharp\Nivel02_EstruturasCondicionais\" />
     <Folder Include="MeusExerciciosCSharp\Nivel03_EstruturasSelecao\" />
     <Folder Include="MeusExerciciosCSharp\Nivel04_EstruturasRepeticao\" />
     <Folder Include="MeusExerciciosCSharp\Nivel05_VetoresMatrizes\" />
