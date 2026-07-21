@@ -51,6 +51,9 @@ class Program
             case "13":
                 MeusExerciciosCSharp.Nivel02_EstruturasCondicionais.Exercicio13.Exercicio13.Executar();
                 break;
+            case "14":
+                MeusExerciciosCSharp.Nivel02_EstruturasCondicionais.Exercicio14.Exercicio14.Executar();
+                break;
             default:
                 Console.WriteLine("Opção inválida ou exercício não encontrado.");
                 break;
