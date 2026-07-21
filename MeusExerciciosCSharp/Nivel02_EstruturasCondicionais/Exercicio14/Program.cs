@@ -17,7 +17,7 @@ class Exercicio14
         Console.WriteLine("Digite o segundo número: ");
         n2 = int.Parse(Console.ReadLine());
 
-        if(n1 >= n2)
+        if (n1 >= n2)
         {
             diferenca = n1 - n2;
         }
@@ -25,7 +25,6 @@ class Exercicio14
         {
             diferenca = n2 - n1;
         }
-       
 
         Console.WriteLine($"\nDiferença: {diferenca}");
     }
