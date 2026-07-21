@@ -6,8 +6,7 @@ class Exercicio14
 {
     public static void Executar()
     {
-        int n1, n2;
-        int diferenca;
+        int n1, n2, diferenca;
 
         Console.WriteLine("--- DIFERENÇA ENTRE DOIS NÚMEROS ---");
 
